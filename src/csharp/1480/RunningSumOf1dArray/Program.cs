@@ -1,8 +1,19 @@
-﻿namespace Problem1480;
+﻿namespace RunningSumOf1dArray;
+
+class Program
+{
+    static void Main()
+    {
+        int[] input = new int[] { 1, 2, 3, 4};
+        int[] result = Solution.RunningSum(input);
+
+        Console.WriteLine(string.Join(", ", result));
+    }
+}
 
 public class Solution
 {
-    public int[] RunningSum(int[] nums)
+    public static int[] RunningSum(int[] nums)
     {
         for (int i = 1; i < nums.Length; i++)
         {
@@ -12,8 +23,7 @@ public class Solution
         return nums;
     }
 
-    // This version defines a new array instead of using the original array.
-    public int[] RunningSumAlternative(int[] nums)
+    public static int[] RunningSumAlternative(int[] nums)
     {
         int[] results = new int[nums.Length];
         results[0] = nums[0];
