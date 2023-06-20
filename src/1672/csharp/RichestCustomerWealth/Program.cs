@@ -24,8 +24,7 @@ public class Solution
             for (int j = 0; j < accounts[i].Length; j++)
                 customerWealth += accounts[i][j];
 
-            if (customerWealth > richestCustomerWealth)
-                richestCustomerWealth = customerWealth;
+            richestCustomerWealth = Math.Max(richestCustomerWealth, customerWealth);
         }        
 
         return richestCustomerWealth;
