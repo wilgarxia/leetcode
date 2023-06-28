@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfStepsToReduceANumberToZero", "NumberOfStepsToReduceANumberToZero\NumberOfStepsToReduceANumberToZero.csproj", "{BE58EFD8-20BC-4FB2-AA30-BCB45E5EF416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfStepsToReduceANumberToZero.Tests", "NumberOfStepsToReduceANumberToZero.Tests\NumberOfStepsToReduceANumberToZero.Tests.csproj", "{E6D56B4D-84D4-49B8-A42F-E8EAE7EC31DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE58EFD8-20BC-4FB2-AA30-BCB45E5EF416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE58EFD8-20BC-4FB2-AA30-BCB45E5EF416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE58EFD8-20BC-4FB2-AA30-BCB45E5EF416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE58EFD8-20BC-4FB2-AA30-BCB45E5EF416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D56B4D-84D4-49B8-A42F-E8EAE7EC31DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D56B4D-84D4-49B8-A42F-E8EAE7EC31DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D56B4D-84D4-49B8-A42F-E8EAE7EC31DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D56B4D-84D4-49B8-A42F-E8EAE7EC31DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
